@@ -22,6 +22,42 @@ function App() {
             <div className="if container">
                 <form autoComplete="off" action="">
                     <div className="if input-wrapper">
+                        <div className="if checkboxes horizontal">
+                            <input
+                                id="checkboxes-section-md-checkbox-1"
+                                type="checkbox"
+                                className="if checkbox"
+                            />
+                            <label htmlFor="checkboxes-section-md-checkbox-1"
+                            >
+                                A path! A path!
+                            </label>
+                            <input
+                                id="checkboxes-section-md-checkbox-2"
+                                type="checkbox"
+                                className="if checkbox"
+                            />
+                            <label htmlFor="checkboxes-section-md-checkbox-2"
+                            >
+                                A path! A path!
+                            </label>
+                            <input
+                                id="checkboxes-section-md-checkbox-3"
+                                checked={ true }
+                                type="checkbox"
+                                className="if checkbox"
+                            />
+                            <label htmlFor="checkboxes-section-md-checkbox-3">
+                                A path! A path!
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div className="if container">
+                <form autoComplete="off" action="">
+                    <div className="if input-wrapper">
                         <div className="if radio-buttons">
                             <input
                                 type="radio"
